@@ -33,17 +33,18 @@ var configs = (function () {
         reboot_message: "Preparing to reboot...\n\n3...\n\n2...\n\n1...\n\nRebooting...\n\n",
         permission_denied_message: "Unable to '<value>', permission denied.",
         sudo_message: "Unable to sudo using a web client.",
+        run_scratch_vm: "Running Scratch VM...
         usage: "Usage",
         file: "file",
         file_not_found: "File '<value>' not found.",
-        username: "Username",
-        hostname: "Host",
+        username: "Guest Scratcher",
+        hostname: "Scratch",
         platform: "Platform",
         accesible_cores: "Accessible cores",
-        language: "Language",
+        language: "English",
         value_token: "<value>",
-        host: "example.com",
-        user: "guest",
+        host: "terminalhosts.scratch.mit.edu",
+        user: "guest scratcher",
         is_root: false,
         type_delay: 20
     };
